@@ -320,7 +320,7 @@ section {
 .arrow {
   position: absolute;
   right: -6rem; /* Adjust the right position as needed */
-  top: 1rem; /* Position it at the top of the section */
+  top: -20rem; /* Position it at the top of the section */
   z-index: 10;
 }
 
@@ -430,6 +430,7 @@ article .icon {
   display: block;
   
 }
+
 
 /* PROJECTS-1 SECTION */
 
