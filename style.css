@@ -351,6 +351,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
+
 #experience {
   position: relative;
 }
@@ -394,6 +395,8 @@ article {
 article .icon {
   cursor: default;
 }
+
+
 
 
 /* PROJECTS SECTION */
