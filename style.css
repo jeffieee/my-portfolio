@@ -437,21 +437,21 @@ article .icon {
 
 /* PROJECTS-1 SECTION */
 
-#projects-1{
+/* #projects-1{
   position: relative;
-}
+} */
 
 /* Specific styling for #projects-1 */
 
-#projects-1 .color-container {
-  width: 40;/* Set a fixed width */
-  height: 40%; /* Set a fixed height */
+/* #projects-1 .color-container {
+  width: 40;
+  height: 40%; 
 }
 
 #projects-1 .project-img {
-  width: 40%;/* Adjust to fill the container */
-  height: 40%; /* Adjust to fill the container */
-}
+  width: 40%;
+  height: 40%; 
+} */
 
 
 
