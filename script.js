@@ -21,62 +21,48 @@ const experience = [
   },
   {
     id: 2,
-    company_name: 'Agile 360',
-    role: 'Officer in Chief',
+    company_name: 'Project-Based',
+    role: 'Software Developer',
     role_details: [
+      { title: 'Excel', exp_level: 'Intermediate' },
       { title: 'SQL', exp_level: 'Intermediate' },
       { title: 'PHP', exp_level: 'Experienced' },
-      { title: 'Gitlab', exp_level: 'Experienced' },
-      { title: 'OOP', exp_level: 'Intermediate' },
-      { title: 'PHP Unit', exp_level: 'Experienced' },
-      { title: 'Restful API', exp_level: 'Experienced' },
-      
+      { title: 'Python', exp_level: 'Intermediate' },
+      { title: 'Data Modeling', exp_level: 'Experienced' },
+      { title: 'Machine Learning', exp_level: 'Intermediate' },
     ],
   },
   {
     id: 3,
-    company_name: 'Pixel8 Web Solutions and Consultancy Inc.',
-    role: 'Backend Developer',
+    company_name: 'Agile 360',
+    role: 'Officer in Chief',
     role_details: [
-      { title: 'SQL', exp_level: 'Intermediate' },
-      { title: 'PHP', exp_level: 'Experienced' },
-      { title: 'Gitlab', exp_level: 'Experienced' },
-      { title: 'OOP', exp_level: 'Intermediate' },
-      { title: 'PHP Unit', exp_level: 'Experienced' },
-      { title: 'Restful API', exp_level: 'Experienced' },
+      { title: 'Excel', exp_level: 'Intermediate' },
+      { title: 'Documentation', exp_level: 'Experienced' },
+      { title: 'Reporting', exp_level: 'Intermediate' },
+      { title: 'Team Collaboration', exp_level: 'Intermediate' },
+      { title: 'Leadership', exp_level: 'Experienced' },
     ],
   },
-  {
-    id: 4,
-    company_name: 'Pixel8 Web Solutions and Consultancy Inc.',
-    role: 'Backend Developer',
-    role_details: [
-      { title: 'SQL', exp_level: 'Intermediate' },
-      { title: 'PHP', exp_level: 'Experienced' },
-      { title: 'Gitlab', exp_level: 'Experienced' },
-      { title: 'OOP', exp_level: 'Intermediate' },
-      { title: 'PHP Unit', exp_level: 'Experienced' },
-      { title: 'Restful API', exp_level: 'Experienced' },
-    ],
-  },
+ 
 ];
 
 const projects = [
   {
     id: 1,
+    image: './assets/city.png',
+    title:
+      'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
+    githubLink:
+      'https://github.com/jeffieee/city-assist/blob/1f0837be2c497d8ca776c7debae664e235c60510/README.md',
+  },
+  {
+    id: 2,
     image: './assets/baya.png',
     title:
       'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
     githubLink:
       'https://github.com/jeffieee/My-Projects/blob/6be6e8515f639191dcf9e1639eae90423b0fb31f/README.md',
-  },
-  {
-    id: 2,
-    image: './assets/sapms.png',
-    title:
-      'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
-    githubLink:
-      'https://github.com/jeffieee/My-Projects/blob/66a6c4ee6f056c0c5780781fa12cf9b96973adf7/README.md',
   },
   {
     id: 3,
@@ -88,20 +74,21 @@ const projects = [
   },
   {
     id: 4,
-    image: './assets/baya.png',
+    image: './assets/cnn.png',
     title:
-      'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
+      'Developing a Hybrid LeNet-Inception Model for Learning Baybayin Script from Scratch',
     githubLink:
-      'https://github.com/jeffieee/My-Projects/blob/6be6e8515f639191dcf9e1639eae90423b0fb31f/README.md',
+      'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
   },
   {
     id: 5,
-    image: './assets/baya.png',
+    image: './assets/rnn.png',
     title:
-      'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
+      'SimpleRNN Demographic Insight Model',
     githubLink:
-      'https://github.com/jeffieee/My-Projects/blob/6be6e8515f639191dcf9e1639eae90423b0fb31f/README.md',
+      'https://github.com/jeffieee/SimpleRNN-model/blob/f8f0c930b8ccd87bf8582dcae90da8dd22ae32c7/SimpleRNN.ipynb',
   },
+  
 ];
 
 function createExperienceCards() {

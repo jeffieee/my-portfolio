@@ -44,17 +44,14 @@
   }
 
   .project-title{
-    font-size: 13px;
+    font-size: 15px;
+    
   }
 
   .contact-container{
-   
+  
     padding-top: 15%;
   }
-  
-
-
-  
 
 }
 
@@ -66,6 +63,8 @@
   #hamburger-nav {
     display: flex;
   }
+  
+  
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -74,6 +73,7 @@
   #profile,
   .section-container {
     display: block;
+    
   }
   .arrow {
     display: none;
@@ -104,11 +104,16 @@
   }
   #contact,
   footer {
-    height: 50vh;
+    height: 60vh;
+  }
+
+  .contact-container{
+    padding-top: 50%;
   }
   #profile {
     height: 100vh;
     margin-bottom: 10;
+    padding-top: 30vh;
   }
   article {
     font-size: 1rem;
@@ -154,4 +159,9 @@
   .text-container {
     text-align: justify;
   }
+  
+  .article-container{
+    padding-bottom: 10vh;
+  }
+
 }

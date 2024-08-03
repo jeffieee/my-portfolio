@@ -235,7 +235,6 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-
   gap: 1rem;
 }
 
@@ -454,6 +453,7 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
   display: block;
+ 
 }
 
 /* PROJECTS-1 SECTION */
