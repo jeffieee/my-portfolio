@@ -1,17 +1,63 @@
 @media screen and (max-width: 1400px) {
   
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 6rem;
   }
   .about-containers {
-    flex-wrap: wrap;
+    display: flex;
+
+  }
+
+  .about-details-container{
+    padding: 1rem;
+  }
+
+  .main-about-details-container{
+    padding: 2rem;
+    font-size: 13px;
   }
   #contact,
   #projects {
     height: fit-content;
   }
+
+  #section-container{
+    display: flex;
+  }
+
+  .article-container{
+    font-size: 13px;
+  }
+  .experience-details-container{
+   
+    padding: 1rem;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .project-details-container{
+    
+    padding: .5rem;
+  }
+
+  .project-title{
+    font-size: 13px;
+  }
+
+  .contact-container{
+   
+    padding-top: 15%;
+  }
+  
+
+
+  
+
 }
+
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -24,6 +70,7 @@
   .experience-details-container {
     margin-top: 2rem;
   }
+  
   #profile,
   .section-container {
     display: block;
@@ -57,11 +104,11 @@
   }
   #contact,
   footer {
-    height: 40vh;
+    height: 50vh;
   }
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: 100vh;
+    margin-bottom: 10;
   }
   article {
     font-size: 1rem;
