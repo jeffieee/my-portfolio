@@ -283,15 +283,38 @@ section {
   position: relative;
 }
 
+.icon{
+  width: 5rem;
+  
+}
+.main-about-details-container{
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  text-align: center;
+  justify-content: center;
+}
+
 .about-containers {
+  display: flex;
+  flex-direction: row;
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  
 }
 
 .about-details-container {
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  text-align: center;
+  justify-content: center;
+  
+ 
+
 }
 
 .about-containers,

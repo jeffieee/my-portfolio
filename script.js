@@ -21,8 +21,8 @@ const experience = [
   },
   {
     id: 2,
-    company_name: 'Pixel8 Web Solutions and Consultancy Inc.',
-    role: 'Backend Developer',
+    company_name: 'Agile 360',
+    role: 'Officer in Chief',
     role_details: [
       { title: 'SQL', exp_level: 'Intermediate' },
       { title: 'PHP', exp_level: 'Experienced' },
@@ -30,6 +30,7 @@ const experience = [
       { title: 'OOP', exp_level: 'Intermediate' },
       { title: 'PHP Unit', exp_level: 'Experienced' },
       { title: 'Restful API', exp_level: 'Experienced' },
+      
     ],
   },
   {
